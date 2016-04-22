@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
     public Text countText;
     public Text winText;
+	public TextMesh playerCaption;
     public CameraController cameraController;
 
     public Light gameLight;
@@ -24,6 +25,7 @@ public class PlayerController : MonoBehaviour
         count = 0;
         setCountText();
         winText.text = "";
+		playerCaption.gameObject.SetActive (false);
     }
 
     public void FixedUpdate()
@@ -67,6 +69,9 @@ public class PlayerController : MonoBehaviour
         countText.text = "Count: " + count.ToString();
         if (count >= 12)
         {
+			playerCaption.gameObject.SetActive (true);
+			//playerCaption.text = "Wheeeee!!";
+			playerCaption.gameObject.SetActive (true);
             winText.text = "You Win!\nPress R to restart game, or Esc to exit";
             collision.enabled = false;
             cameraController.rip = true;

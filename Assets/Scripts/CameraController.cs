@@ -24,11 +24,8 @@ public class CameraController : MonoBehaviour {
         } else
         {
             Vector3 currentPos = transform.position;
-            Vector3 idealPos = new Vector3(0, 0, 10);
-            transform.position = Vector3.SmoothDamp(currentPos, idealPos, ref velocity, 0.75f);
-            Quaternion currentRot = transform.rotation;
-            Quaternion idealRotation = new Quaternion(90, 0, 0, 0);
-            transform.rotation = Quaternion.RotateTowards(currentRot, idealRotation, 90.0f);
+            Vector3 idealPos = new Vector3(0, 0, -15);
+            transform.position = Vector3.SmoothDamp(currentPos, idealPos, ref velocity, 0.1f);
         }
 	}
 }
