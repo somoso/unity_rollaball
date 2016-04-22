@@ -21,11 +21,13 @@ public class CameraController : MonoBehaviour {
 	void LateUpdate () {
         if (!rip) {
             transform.position = player.transform.position + offset;
-        } else
+        } 
+		else
         {
             Vector3 currentPos = transform.position;
             Vector3 idealPos = new Vector3(0, 0, -15);
             transform.position = Vector3.SmoothDamp(currentPos, idealPos, ref velocity, 0.1f);
+			transform.LookAt(player.transform);
         }
 	}
 }

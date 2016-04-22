@@ -14,18 +14,9 @@ Platform assembly: C:\Users\Soheb\Documents\Unity Projects\unity_rollaball\Build
 Loading C:\Users\Soheb\Documents\Unity Projects\unity_rollaball\Builds\roll_a_ball_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Soheb\Documents\Unity Projects\unity_rollaball\Builds\roll_a_ball_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Soheb\Documents\Unity Projects\unity_rollaball\Builds\roll_a_ball_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Soheb\Documents\Unity Projects\unity_rollaball\Builds\roll_a_ball_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Soheb\Documents\Unity Projects\unity_rollaball\Builds\roll_a_ball_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Soheb\Documents\Unity Projects\unity_rollaball\Builds\roll_a_ball_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Soheb\Documents\Unity Projects\unity_rollaball\Builds\roll_a_ball_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.071 seconds
+- Completed reload, in  0.070 seconds
 Platform assembly: C:\Users\Soheb\Documents\Unity Projects\unity_rollaball\Builds\roll_a_ball_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Soheb\Documents\Unity Projects\unity_rollaball\Builds\roll_a_ball_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-<RI> Initialized touch support.
-UnloadTime: 0.499712 ms
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1d6c -> priority: 1 
-  Thread -> id: 1558 -> priority: 1 
